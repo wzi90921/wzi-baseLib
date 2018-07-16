@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.author       = {
                     "weizixiong" => "wzi90921@sina.com"
  }
-  #s.source     = { :git => "https://github.com/wzi90921/wzi-baseLib.git", :branch => 'master' }
-  s.source = { :git => "../wzi-baseLib" }
+  s.source     = { :git => "https://github.com/wzi90921/wzi-baseLib.git", :branch => 'master' }
+  #s.source = { :git => "../wzi-baseLib" }
   s.prefix_header_file = 'Classes/Prefix.h'
   s.source_files  = "Classes/**/*.{h,m}"
   s.requires_arc  = true
